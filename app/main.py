@@ -2,7 +2,7 @@ def format_linter_error(error: dict) -> dict:
     return {
         "message": error["text"],
         "name": error["code"],
-        "sourse": "flake8"
+        "source": "flake8"
     }
 
 
